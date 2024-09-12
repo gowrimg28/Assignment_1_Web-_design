@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Artsy</title>
+</head>
+<body>
+    <header>
+    <h1>Hello Art Lover!!!</h1>
+    <p>Welcome to my colorful corner! I'm an art enthusiast who loves to bring imagination to life with Watercolors, Gouache, Acrylics, and Oils paints. When I'm not painting, you can find me diving into code as a full-time Software Engineering student!</p>
+    <hr>
+    <nav>
+        <menu>
+        <ul>
+            <li><a href="#home"class="button">Home</a></li>
+            <li><a href="#categories" class="button">Categories</a></li>
+            <li><a href="#gallery" class="button">All Work</a></li>
+            <li><a href="#contact" class="button">Contact</a></li>
+        </ul>
+    </menu>
+    </nav>
+    <hr>
+    </header>
+    
+    <section id="gallery">
+        <h2>Have a look at my work</h2>
+        <div class="lightbox-gallery">
+            <a href="vase.png" target="_blank">
+                <img src="vase.png" alt="Vase Painting using Gouache colors">
+            </a>
+            <a href="Flower.png" target="_blank">
+                <img src="Flower.png" alt="Flowers using Acrylic colors">
+            </a>
+            <a href="fish.png" target="_blank">
+                <img src="fish.png" alt="Madhubani Art">
+            </a>
+            <a href="horse.png" target="_blank">
+                <img src="horse.png" alt="Horse using Gouache colors">
+            </a>
+            <a href="cookies.png" target="_blank">
+                <img src="cookies.png" alt="Food Illustration">
+            </a>
+            <a href="girl.png" target="_blank">
+                <img src="girl.png" alt="Portarait">
+            </a>
+            <a href="puri.png" target="_blank">
+                <img src="puri.png" alt="PaniPuri">
+            </a>
+        </div>
+        <div class="media-gallery">
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="smallaudio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+    
+            <h3>Video</h3>
+            <video width="320" height="240" controls>
+                <source src="Resign.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video width="320" height="240" controls>
+                <source src="duck.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    
+    <section id="categories">
+        <h2>Categories</h2>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>Sample Image</th>
+            </tr>
+            <tr>
+                <td>Acrylic</td>
+                <td><img src="acrylic.jpg" alt="Portrait Reference" width="100"></td>
+            </tr>
+            <tr>
+                <td>Watercolor</td>
+                <td><img src="watercolor.jpg" alt="Watercolor Reference" width="100"></td>
+            </tr>
+            <tr>
+                <td>Gouache</td>
+                <td><img src="gouache.jpg" alt="Gouache Reference" width="100"></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="details">
+        <h2>Details</h2>
+        <div class="details-container">
+            <details>
+                <summary class="details-summary">Click to Explore Art Commissions</summary>
+                <div class="details-content">
+                    <p>Order your personalized art piece today! I offer a range of styles including:</p>
+                    <ul>
+                        <li>Custom Designs</li>
+                        <li>Acrylic Paintings</li>
+                        <li>Mural Art</li>
+                        <li>Gouache Paintings</li>
+                        <li>Oil Paintings</li>
+                    </ul>
+                    <p>Whether you're looking for something unique for your home or a special gift, I’m here to bring your vision to life!</p>
+                    <p class="order-message">Place your order by contacting me from the above form.</p>
+                </div>
+            </details>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>Reach us via <a href="gowriartsy.com">email</a> or call us at <a href="tel:+1234567890">+123-456-7890</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Art Reference Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
